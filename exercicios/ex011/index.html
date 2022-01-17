@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usando Imagens dinâmicas</title>
+    <style>
+        body {
+            background-color: blue;
+            color: aliceblue;
+            font: normal 16pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Utilizando imagens dinâmicas</h1>
+    <picture>
+        <source media="(max-width: 750px)" srcset="Imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1000px)" srcset="Imagens/foto-m.png" type="image/png">
+        <img src="Imagens/foto-g.png" alt="Imagem flexivel">
+    </picture>
+
+    <h1>Reprozindo audio</audio></h1>
+    <audio src="Audio/happy-mistake.mp3" controls ></audio><br>
+
+    <h1>Reproduzindo Vídeo</h1>
+    <video src="Video/vídeo.mp4" width="500" controls></video>
+</body>
+</html>

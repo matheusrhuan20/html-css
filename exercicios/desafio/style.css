@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Work+Sans:ital,wght@0,100;0,200;0,400;0,600;0,900;1,100;1,200&display=swap');
+
+@font-face {
+       font-family: 'idroid';
+       src: url('idroid.otf') format('opentype'); 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+menu{
+    background-color: aquamarine;
+    height: 20px;
+}
+header{
+    text-align: center;
+    margin: auto;
+    background-color: rgb(3, 85, 0);
+    color: white;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.521);
+    padding-top: 20px;
+    min-height: 130px;
+}
+header > p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 1.3em;
+}
+h1#cringe3{
+    font-family: 'Bebas Neue', Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 4em;
+    font-weight: normal;
+    
+}
+h2{
+    font: normal 1.2em Arial;
+    text-align: center;
+
+}
+footer{
+    font-size: 0.8 em;
+    text-align: center;
+}
+nav{
+    background-color: rgb(113, 255, 108);
+    color: rgb(255, 255, 255);
+}
+h1#cringe{
+    font:normal 2em'idroid';
+    text-align: center;
+    background-color:#a7faca; 
+    background-image: linear-gradient(to right, transparent, rgb(255, 255, 255));
+}
+main{
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+    width: 800px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.651);
+}
+body{
+    background-color: rgb(171, 255, 168);
+}
+p{
+    text-indent: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+h1#cringe2{
+    font: normal 2em 'idroid';
+    text-align: center;
+}
+h1#cringe4{
+    font: normal 2em 'idroid';
+    text-align: center;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+iframe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+div#video{
+    border-color: rgb(120, 255, 86);
+
+}
+div#lista1{
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+    width: 800px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.651);
+    
+}
+div#lista2{
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+    width: 800px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.651);    
+}
+aside{
+    background-color: aquamarine;
+    border-radius: 10px;
+    padding: 10px;
+}
+aside > h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    
+}
+aside > ul{
+    
+    columns: 2;
+    list-style-position: inside;
+}
+footer{
+    background-color: rgb(29, 80, 62);
+}
