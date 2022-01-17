@@ -68,10 +68,6 @@ main{
     min-width: 320px;
     max-width: 800px;
     border-color: #0D3B17;
-    border-style: solid;
-    border-width: 2.3px;
-    border-bottom-width: 0px;
-    border-top-width: 0px;
 }
 main > h2{
     text-align: center;
@@ -104,8 +100,6 @@ div#defora {
     min-width: 320px;
     max-width: 800px;
     padding: 0px 0px 4px 0px;
-    border-color:#003d08;
-    border-style: solid;
     
 }
 div#defora > ul{
