@@ -67,6 +67,11 @@ main{
     padding: 10px;
     min-width: 320px;
     max-width: 800px;
+    border-color: #0D3B17;
+    border-style: solid;
+    border-width: 2.3px;
+    border-bottom-width: 0px;
+    border-top-width: 0px;
 }
 main > h2{
     text-align: center;
@@ -75,10 +80,16 @@ main > h2{
     font-weight: normal;
     background-color:#77f1aa; 
 }
-div > h3{
+div#defora > h3{
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.7em;
+    font-size: 1.6em;
+    background-color: #003d08;
+    color: white;
+    padding: 4px 3px 4px 20px;
+    border-radius: 10px 10px 0px 0px;
+  
+    
 }
 main > p{
     font-family:  Arial, Helvetica, sans-serif;
@@ -86,22 +97,26 @@ main > p{
     text-indent: 30px;
     text-align: center;
 }
-div {
+div#defora {
     background-color: #3AFA64;
     margin: auto;
-    border-radius: 0px 0px 9px 0px ;
-    padding: 10px;
+    border-radius: 18px;
     min-width: 320px;
     max-width: 800px;
+    padding: 0px 0px 4px 0px;
+    border-color:#003d08;
+    border-style: solid;
+    border-width: 5px;
     
 }
-div > ul{
+div#defora > ul{
     font-size: 1.1em;
     font-family: Arial, Helvetica, sans-serif;
     columns: 2;
     list-style-position: inside;
+    text-indent: 30px;
 }
-div > p{
+div#defora > p{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.1em;
     text-indent: 30px;
@@ -138,6 +153,7 @@ div.video{
     padding: 20px;
     position: relative;
     padding-bottom: 59%;
+    background-color: aliceblue;
 }
 div.video > iframe{
     position: absolute;
